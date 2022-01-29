@@ -18,4 +18,4 @@ app.get('/test', (req, res) => {
 
 app.get('/data', (req, res) => {
     res.send({ result : '서버 통신 완료' });
-}) //
+}) ////
