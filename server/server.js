@@ -15,7 +15,7 @@ app.get('/', (req, res) => {
 app.get('/test', (req, res) => {
     res.send('테스트 화면입니다.');
 })
-
+//
 app.get('/data', (req, res) => {
     res.send({ result : '서버 통신 완료' });
 })
